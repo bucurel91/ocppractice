@@ -1,0 +1,15 @@
+
+
+
+Diferenta dintre crearea unui fir de executie print extinderea clasei Thread si implementarea interfetei Runnable
+
+ - daca ai nevoie sa definesti propriile reguli de Thread, pe care se vor baza mai multe taskuri, de exemplu ca prioritatea
+ Threadului, extinderea clasei Thread va fi mai preferabila.
+
+ - intrucit java nu suporta mostenire multipla, extinderea clasei Thread nu ne permite sa mai extindem o alta clasa,
+ astfel implementarea interfetei Runnable ne permite sa exindem o alta clasa.
+
+ - implementind interfata Runnable in cele mai multe cazuri este o mai buna prctica de design a programarii orientate pe obiecte,
+ intrucit separa taskul executat de executarea lui de catre obiectul Thread
+
+ - implementind interfata Runnable ne permite sa folosim o numar mare de clase a API-lui Concurentei.

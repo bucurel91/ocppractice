@@ -1,0 +1,10 @@
+Clasele interne (nested) sunt clase definite in interiorul altor clase;
+
+Sunt 4 tipuri:
+    - clasa interna membra, care este la un nivel cu variabilele de instanta
+    - clasa interna locala, definita intr-o metoda ( ca si variabilele locale)
+    - clasa interna anonima, este un tip special de clasa interna care nu are nume
+    - clasa interna statica, care este definita la un nivel cu variabilele de clasa (statice)
+
+        Scopul lor este de a encapsula clasele ajutatoare, restrictionindule ptr clasa care le contine.
+            Ne permite usor de a crea clase unde se folosesc doar intr-un singur loc.
